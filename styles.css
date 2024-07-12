@@ -1,0 +1,115 @@
+body {
+    text-align: center;
+    font-family: "Playwrite AU NSW", cursive;
+    background: linear-gradient(#344966, #0D1821);
+    color: #F0F4EF;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#bff-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #E6AACE;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #E6AACE;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #E6AACE;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+.gift-img {
+    margin: 20px auto;
+    max-width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+    
+}
+
+#gift-img-joy:hover {
+    background-image: url("images/avery-dance.webp");
+    background-position: center;
+    
+    background-position: center; 
+    background-color: black;
+}
+
+#gift-img-full:hover {
+    background-image: url("images/patrick-shoe.webp");
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-color: black;
+}
+
+#gift-img-down:hover {
+    background-image: url("images/patrick-read.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-color: black;
+}
+
+#gift-img-honor:hover {
+    background-image: url("images/patrick-honor.webp");
+    
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-color: black;
+}
+
+#gift-img-cheers:hover {
+    background-image: url("images/patrick-celebrate.webp");
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+
+#footer {
+    font-style: italic;
+    width: 400px;
+    margin: 40px auto 20px;
+    padding: 50px;
+}
+
+a {
+    color: white;
+}
